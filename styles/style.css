@@ -96,3 +96,33 @@ a.navbar-item:hover {
     font-size: 18px;
     line-height: 28px;
 }
+
+/* =========== FOOTER =========== */
+
+.footer{
+    background-color: #efefef;
+    padding: 1px 0px; /*должно быть 40px 0px;*/
+    font-size: 14px;
+    
+
+}
+.copyright,
+.contacts{
+    margin: 0px;
+    display: inline-block;
+    width: 45%;/*должно быть 50%*/
+}
+
+.copyright,
+.contacts-item{
+    color:#555559;
+}
+
+.contacts-item{
+    display: inline-block;
+}
+.contacts-item--bordered{
+    padding-left: 8px;
+    border-left: 1px solid #555559;
+    margin-right: 8px;
+}
