@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Wrapping container to center content */
+/* =========== HEADER =========== */
 
 .container {
     max-width: 1280px;
@@ -47,4 +47,23 @@ a.navbar-item:hover {
     background-color: white;
     text-align: center;
     box-shadow: 0px 5px 24px -16px black;
+}
+
+.hero{
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+.hero-slogan{
+    font-size: 56px;
+    color: #555559;
+
+}
+.hero-link{
+    font-size: 20px;
+    background-color: #286782;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 22px 30px 22px 30px;
+    border-radius: 6px;
 }
