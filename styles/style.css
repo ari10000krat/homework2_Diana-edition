@@ -67,3 +67,32 @@ a.navbar-item:hover {
     padding: 22px 30px 22px 30px;
     border-radius: 6px;
 }
+
+/* =========== PRODUCTION LIST =========== */
+
+
+.production-item{
+    color: #555559;
+}
+.production-text,
+.production-img{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.production-text{
+    padding-top: 140px;
+    letter-spacing: 1px;
+    max-width: 450px;
+    margin: 0 auto;
+
+}
+.production-title{
+    font-size: 24px;
+    margin: 0px 0px 40px 0px
+}
+.production-description{
+    font-size: 18px;
+    line-height: 28px;
+}
